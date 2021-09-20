@@ -19,24 +19,6 @@ html, body {
     opacity: .9;
 }
 
-.carousel-caption {
-    position: absolute;
-    top: 35%;
-}
-
-.carousel-indicators {
-    position: absolute;
-    top: 70%;
-}
-
-.carousel-inner img {
-    height: 1050px; 
-    width: 100%; 
-    margin-top: -50px;
-    filter: brightness(80%); 
-    transform:scale(1.25);
-}
-
 .btn {
     font-size: small;
     text-transform: uppercase;
@@ -49,6 +31,24 @@ html, body {
 .btn-danger {
     background-color:rgb(255, 60, 0);
     border-color: rgb(255, 60, 0);
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 35%;
+}
+
+.carousel-indicators {
+    position: absolute;
+    top: 68%;
+}
+
+.carousel-inner img {
+    height: 1040px;
+    width: 100%; 
+    margin-top: -50px;
+    filter: brightness(80%); 
+    transform:scale(1.25);
 }
 
 .community {
@@ -120,6 +120,11 @@ html, body {
     opacity: 1;
 }
 
+.welcome {
+    padding-bottom: 1rem;
+    position: relative; 
+}
+
 .welcome-img {
     object-fit: none;
     object-position: top;
@@ -129,11 +134,11 @@ html, body {
     background-color: black; 
     opacity: .75; 
     position: absolute; 
-    top: 80%;
+    top: 72%;
 }
 
 .welcome-text {
-    max-width: 80%; 
+    max-width: 65%;
     margin: 0 auto;
 }
 
