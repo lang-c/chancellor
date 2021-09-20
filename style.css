@@ -15,17 +15,27 @@ html, body {
     border-bottom: 1px solid rgb(190, 190, 190);
 }
 
+.amenities-p {
+	max-width: 55%;
+    margin: 0 auto;
+}
+
 .amenities-row {
     opacity: .9;
 }
 
+.amenities-row p {
+	max-width: 75%;
+    margin: 0 auto;
+}
+
 .btn {
     font-size: small;
-    text-transform: uppercase;
     padding-bottom: .75rem;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: .75rem;
+	text-transform: uppercase;
 }
 
 .btn-danger {
@@ -53,7 +63,12 @@ html, body {
 
 .community {
     background-image: url('Images-Optimized/VibrantCommunity-Bg.png'); 
-    height: 1100px;
+    height: 1150px;
+}
+
+.community p {
+	max-width: 65%;
+    margin: 0 auto;
 }
 
 .footer-md {
@@ -89,6 +104,11 @@ html, body {
 .padding {
     padding-bottom: 2rem;
     padding-top: 2rem;
+}
+
+.photogallery p {
+	max-width: 60%;
+    margin: 0 auto;
 }
 
 .textover {
