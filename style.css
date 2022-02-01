@@ -5,44 +5,6 @@ html, body {
     color: #222;
 }
 
-.amenities {
-    background-image: url('Images-Optimized/AdobeStock_196314124.jpg'); 
-    background-position: left; 
-    height: 1100px;
-}
-
-.amenities-bb {
-    border-bottom: 1px solid rgb(190, 190, 190);
-}
-
-.amenities-p {
-	max-width: 55%;
-    margin: 0 auto;
-}
-
-.amenities-row {
-    opacity: .9;
-}
-
-.amenities-row p {
-	max-width: 75%;
-    margin: 0 auto;
-}
-
-.btn {
-    font-size: small;
-    padding-bottom: .75rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: .75rem;
-	text-transform: uppercase;
-}
-
-.btn-danger {
-    background-color:rgb(255, 60, 0);
-    border-color: rgb(255, 60, 0);
-}
-
 .carousel-caption {
     position: absolute;
     top: 35%;
@@ -54,21 +16,81 @@ html, body {
 }
 
 .carousel-inner img {
-    height: 1040px;
+    height: 1050px; 
     width: 100%; 
     margin-top: -50px;
     filter: brightness(80%); 
-    transform:scale(1.25);
+    transform: scale(1.25);
+}
+
+.welcome {
+    background-color: black; 
+    opacity: .75;
+    height: 270px;
+    position: absolute; 
+    top: 73%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.welcome p {
+    width: 65%; 
+    margin: 0 auto;
+}
+
+.welcome-img {
+    object-fit: none;
+    object-position: top;
+}
+
+.about {
+    width: 75%;
+}
+
+.about p {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.amenities {
+    background-image: url('Images-Optimized/AdobeStock_196314124.jpg'); 
+    background-position: left; 
+    height: 1100px;
+}
+
+.amenities-bb {
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+.amenities-row {
+    opacity: .9;
+}
+
+.btn {
+    font-size: small;
+    text-transform: uppercase;
+    padding-bottom: .75rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .75rem;
+}
+
+.btn-danger {
+    background-color:rgb(255, 60, 0);
+    border-color: rgb(255, 60, 0);
 }
 
 .community {
     background-image: url('Images-Optimized/VibrantCommunity-Bg.png'); 
-    height: 1150px;
+    height: 1100px;
+}
+
+.community h2 {
+    padding-top: 4rem;
 }
 
 .community p {
-	max-width: 65%;
-    margin: 0 auto;
+    padding-bottom: 4rem;
 }
 
 .footer-md {
@@ -78,6 +100,11 @@ html, body {
 
 .footer-bg {
     background-color: black;
+}
+
+.gallery p {
+    width: 55%;
+    margin: 0 auto;
 }
 
 .grid-line1 {
@@ -106,11 +133,6 @@ html, body {
     padding-top: 2rem;
 }
 
-.photogallery p {
-	max-width: 60%;
-    margin: 0 auto;
-}
-
 .textover {
     padding-bottom: 1rem;
     position: relative; 
@@ -125,10 +147,10 @@ html, body {
     width: 100%;
 }
 
-.textover img {
+.community img {
     filter: brightness(75%); 
     height: 310px; 
-    width: 100%;
+    width: 95%;
 }
 
 .tour-bg {
@@ -140,30 +162,35 @@ html, body {
     opacity: 1;
 }
 
-.welcome {
-    padding-bottom: 1rem;
-    position: relative; 
-}
-
-.welcome-img {
-    object-fit: none;
-    object-position: top;
-}
-
-.welcome-row {
-    background-color: black; 
-    opacity: .75; 
-    position: absolute; 
-    top: 72%;
-}
-
-.welcome-text {
-    max-width: 65%;
-    margin: 0 auto;
-}
-
 @media screen and (max-width: 800px) {
-    .mobile {
+    .welcome p {
         display: none;
+    }
+
+    .about {
+        width: auto;
+    }
+
+    .about p {
+        width: auto;
+    }
+    
+    .community h2 {
+        padding-top: 2rem;
+    }
+
+    .community p {
+        padding-bottom: 2rem;
+    }
+
+    .textover {
+        padding-bottom: 0;
+        position: relative; 
+    }
+
+    .textover img {
+        filter: brightness(75%); 
+        height: 170px; 
+        width: 100%;
     }
 }
