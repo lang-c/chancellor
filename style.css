@@ -20,6 +20,16 @@ html, body {
     height: 1100px;
 }
 
+.amenities img {
+    height: 40px;
+    width: auto;
+}
+
+.amenities p {
+    width: 75%;
+    margin: 0 auto;
+}
+
 .amenities-bb {
     border-bottom: 1px solid rgb(190, 190, 190);
 }
@@ -65,7 +75,7 @@ html, body {
     height: 1100px;
 }
 
-.community h2 {
+.community h3 {
     padding-top: 4rem;
 }
 
@@ -79,17 +89,22 @@ html, body {
     width: 95%;
 }
 
-.footer-md {
+.footer {
+    background-color: black;
+}
+
+.footer div {
     max-width: 80%; 
     margin: 0 auto;
 }
 
-.footer-bg {
-    background-color: black;
+.footer hr {
+    max-width: 80%; 
+    margin: 0 auto;
 }
 
 .gallery p {
-    width: 55%;
+    width: 65%;
     margin: 0 auto;
 }
 
@@ -147,9 +162,8 @@ html, body {
     opacity: .75;
     height: 270px;
     position: absolute; 
-    top: 75%;
+    top: 73%;
     width: 100%;
-    margin: 0 auto;
 }
 
 .welcome p {
@@ -157,12 +171,12 @@ html, body {
     margin: 0 auto;
 }
 
-.welcome-img {
+#welcome-img {
     object-fit: none;
     object-position: top;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 996px) {
    .about {
         width: auto;
     }
@@ -170,8 +184,17 @@ html, body {
     .about p {
         width: auto;
     }
+
+    .amenities p {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .amenities-row p {
+        display: none;
+    }
     
-    .community h2 {
+    .community h3 {
         padding-top: 2rem;
     }
 
@@ -183,6 +206,11 @@ html, body {
         filter: brightness(75%); 
         height: 170px; 
         width: 100%;
+    }
+
+    .gallery p {
+        width: auto;
+        margin: 0 auto;
     }
 
     .textover {
