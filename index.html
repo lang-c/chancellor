@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
         <link rel="stylesheet" href="style.css">
         <title>The Chancellor</title>
     </head>
@@ -14,9 +15,7 @@
         <nav class="navbar fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="Images-Optimized/Logo-Chancellor.png" alt="chancellor logo"></a>
-                <button type="button" class="navbar-toggler navbar-dark" data-toggle="collapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <button type="button" class="navbar-toggler navbar-dark" data-toggle="collapse"><span class="navbar-toggler-icon"></span></button>
             </div>
         </nav>
 
@@ -31,15 +30,11 @@
               </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="img-fluid welcome-img" src="Images-Optimized/IMG_5957_58_59_60_61_62_63.jpg" alt="slide 1">
+                    <img id="welcome-img" class="img-fluid" src="Images-Optimized/IMG_5957_58_59_60_61_62_63.jpg" alt="slide 1">
                     <div class="carousel-caption">
-                        <div class="display-6">
-                            Luxury Apartment Residences + Shops
-                        </div>
+                        <h1 class="display-6">Luxury Apartment Residences + Shops</h1>
                         <br>
-                        <div class="display-1">
-                            Live in the Rhythm
-                        </div>
+                        <div class="display-1">Live in the Rhythm</div>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -52,63 +47,40 @@
                     <img class="img-fluid" src="Images-Optimized/IMG_1441_2_3_4_5_6_7-2.jpg" alt="slide 4">
                 </div>
             </div>
-        </div>
 
-        <div class="row welcome text-center text-white align-items-center">
-            <div class="col vertrule">
-                <figure>
-                    <img src="icons/House-icon.png" alt="house icon">
-                </figure>
-                <figcaption>
-                    Schedule a Tour
-                </figcaption>
-                <p>
-                    We will be scheduling virtual tours as well as in-person tours. Social distancing guidelines will apply.
-                </p>
-                <br>
-                <button type="button" class="btn btn-danger">
-                    Schedule Tour
-                </button>
-            </div>
-            <div class="col vertrule">
-                <figure>
-                    <img src="icons/Phone-icon.png" alt="phone icon">
-                </figure>
-                <figcaption>
-                    (833) 238.6197
-                </figcaption>
-                <p>
-                    We cannot wait to help you find your new home! Please call for any additional questions.
-                </p>
-                <br>
-                <button type="button" class="btn btn-outline-light">
-                    Get In Touch
-                </button>
-            </div>
-            <div class="col">
-                <figure>
-                    <img src="icons/search.png" alt="search icon">
-                </figure>
-                <figcaption>
-                    Find my Apartment
-                </figcaption>
-                <p>
-                    With a wide variety of floor plans, we are sure to have the right apartments to fit your lifestyle.
-                </p>
-                <br>
-                <button type="button" class="btn btn-outline-light">
-                    See Floorplans
-                </button>
+            <div class="container-fluid">
+                <div class="row text-center text-white align-items-center welcome">
+                    <div class="col vertrule">
+                        <figure><img src="icons/House-icon.png" alt="house icon"></figure>
+                        <figcaption>Schedule a Tour</figcaption>
+                        <p>We will be scheduling virtual tours as well as in-person tours. Social distancing guidelines will apply.</p>
+                        <br>
+                        <button type="button" class="btn btn-danger rounded-0">Schedule Tour</button>
+                    </div>
+                    <div class="col vertrule">
+                        <figure><img src="icons/Phone-icon.png" alt="phone icon"></figure>
+                        <figcaption>(833) 238.6197</figcaption>
+                        <p>We cannot wait to help you find your new home! Please call for any additional questions.</p>
+                        <br>
+                        <button type="button" class="btn btn-outline-light rounded-0">Get In Touch</button>
+                    </div>
+                    <div class="col">
+                        <figure><img src="icons/search.png" alt="search icon"></figure>
+                        <figcaption>Find my Apartment</figcaption>
+                        <p>With a wide variety of floor plans, we are sure to have the right apartments to fit your lifestyle.</p>
+                        <br>
+                        <button type="button" class="btn btn-outline-light rounded-0">See Floorplans</button>
+                    </div>
+                </div>
             </div>
         </div>
-        
         
         <!--- About --->
 
         <div class="container-fluid padding text-center about">
-            <h1 class="display-5 pb-3 pt-5">
+            <h2 class="display-5 pb-3 pt-5">
                 Chancellor Apartments is a mix of apartment homes and retail shops located in the heart of the city
-            </h1>
+            </h2>
             <p class="lead pb-5 pt-3 text-secondary">
                 Just across the street from the University of Santa Barbara, CA. The community design provides a contemporary urban flare that recognizes the art and music heritage throughout the city. Studio, 1, 2 and 3 bedroom apartment homes, along with an abundance of amenities, make Chancellor Apartments an active destination for many lifestyles, while also offering an escape to residents who enjoy the comfort of home.
             </p>
@@ -117,32 +89,22 @@
         <!--- Community --->
 
         <div class="container-fluid text-center text-white community">
-            <h2 class="display-5">
-                Vibrant Community Life
-            </h2>
+            <h3 class="display-5">Vibrant Community Life</h3>
             <br>
-            <p class="lead">
-                With exciting new opportunities for shopping, dining, entertainment and outdoor amusement.
-                <br>
-                Get a piece of the luxury when you live at Highland Row.
-            </p>
+            <p class="lead">With exciting new opportunities for shopping, dining, entertainment and outdoor amusement.<br>Get a piece of the luxury when you live at Highland Row.</p>
 
             <div class="container community">
                 <div class="row">
                     <div class="col-lg-6 col-sm-12">
                         <figure class="textover">
                             <img class="img-fluid" src="Images-Optimized/breakfast-brunch-cell-phone-693269.jpg" alt="breakfast brunch cell phone">
-                            <figcaption>
-                                Restaurant & Dining
-                            </figcaption>
+                            <figcaption>Restaurant & Dining</figcaption>
                         </figure>
                     </div>
                     <div class="col-lg-6 col-sm-12">
                         <figure class="textover">
                             <img class="img-fluid" src="Images-Optimized/AdobeStock_333387457.jpg" alt="women shopping">
-                            <figcaption>
-                                Shopping & Groceries
-                            </figcaption>
+                            <figcaption>Shopping & Groceries</figcaption>
                         </figure>
                     </div>
                 </div>
@@ -150,37 +112,27 @@
                     <div class="col-lg-6 col-sm-12">
                         <figure class="textover">
                             <img class="img-fluid" src="Images-Optimized/pexels-mentatdgt-1485799.jpg" alt="couple walking dog">
-                            <figcaption>
-                                University & Parks
-                            </figcaption>
+                            <figcaption>University & Parks</figcaption>
                         </figure>
                     </div>
                     <div class="col-lg-6 col-sm-12">
                         <figure class="textover">
                             <img class="img-fluid" src="Images-Optimized/AdobeStock_180495371.jpg" alt="highway">
-                            <figcaption>
-                                Close to Main Intersections
-                            </figcaption>
+                            <figcaption>Close to Main Intersections</figcaption>
                         </figure>
                     </div>
                 </div>
                 <br>
-                <button type="button" class="btn btn-outline-light">
-                    Explore Neighborhood
-                </button>
+                <button type="button" class="btn btn-outline-light rounded-0">Explore Neighborhood</button>
             </div>
-            </div>
+        </div>
 
         <!--- Amenities --->
 
         <div class="container-fluid amenities text-center">
-            <div class="display-5 pt-5">
-                    High-End from Start to the Finishes
-            </div>
+            <h3 class="display-5 pt-5">High-End from Start to the Finishes</h3>
             <br>
-            <p class="lead pb-5 text-secondary">
-                Resort-quality amenities that are perfect for entertaining, relaxing, or socializing, you'll never want to leave the comforts of home.
-            </p>
+            <p class="lead pb-5 text-secondary">Resort-quality amenities that are perfect for entertaining, relaxing, or socializing, you'll never want to leave the comforts of home.</p>
             
             <div class="container">
                 <div class="row amenities-row bg-light border-right pt-5">
@@ -189,36 +141,27 @@
                             <img src="icons/pool-icon.png" alt="pool icon">
                         </figure>
                         <br>
-                        <figcaption>
-                                Pool with Aqua Lounge
-                        </figcaption>
-                        <p class="mobile text-secondary">
-                            Lorum ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                        </p>
+                        <figcaption>Pool with Aqua Lounge</figcaption>
+                        <br>
+                        <p class="text-secondary">Lorum ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                     </div>
                     <div class="col grid-line1 pt-3">
                         <figure>
                             <img src="icons/fitness-icon.png" alt="fitness icon">
                         </figure>
                         <br>
-                        <figcaption>
-                                24-Hour Fitness Center
-                        </figcaption>
-                        <p class="mobile text-secondary">
-                            Lorum ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                        </p>
+                        <figcaption>24-Hour Fitness Center</figcaption>
+                        <br>
+                        <p class="text-secondary">Lorum ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                     </div>
                     <div class="col amenities-bb pt-3">
                         <figure>
                             <img src="icons/bike-icon.png" alt="bike icon">
                         </figure>
                         <br>
-                        <figcaption>
-                                Interior Bike Storage
-                        </figcaption>
-                        <p class="mobile text-secondary">
-                            Lorum ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                        </p>
+                        <figcaption>Interior Bike Storage</figcaption>
+                        <br>
+                        <p class="text-secondary">Lorum ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                     </div>
                 </div>
                 <div class="row amenities-row bg-light pb-5">
@@ -227,74 +170,59 @@
                             <img src="icons/pet-icon.png" alt="pet icon">
                         </figure>
                         <br>
-                        <figcaption>
-                                Pet Friendly
-                        </figcaption>
-                        <p class="mobile text-secondary">
-                            Lorum ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                        </p>
+                        <figcaption>Pet Friendly</figcaption>
+                        <br>
+                        <p class="text-secondary">Lorum ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                     </div>
                     <div class="col grid-line2 pt-5">
                         <figure>
                             <img src="icons/chair-icon.png" alt="chair icon">
                         </figure>
                         <br>
-                        <figcaption>
-                                Open Concept Floorplans
-                        </figcaption>
-                        <p class="mobile text-secondary">
-                            Lorum ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                        </p>
+                        <figcaption>Open Concept Floorplans</figcaption>
+                        <br>
+                        <p class="text-secondary">Lorum ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                     </div>
                     <div class="col pt-5">
                         <figure>
                             <img src="icons/eco-icon.png" alt="eco icon">
                         </figure>
                         <br>
-                        <figcaption>
-                                Stainless Steel Appliances
-                        </figcaption>
-                        <p class="mobile text-secondary">
-                            Lorum ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                        </p>
+                        <figcaption>Stainless Steel Appliances</figcaption>
+                        <br>
+                        <p class="text-secondary">Lorum ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                     </div>
                 </div>
             </div>
             
             <div class="container pt-5">
-                <button type="button" class="btn btn-dark">
-                    Explore Amenities
-                </button>
+                <button type="button" class="btn btn-dark rounded-0">Explore Amenities</button>
             </div>
         </div>
 
         <!--- Photo Gallery --->
 
         <div class="container padding text-center gallery">
-            <div class="display-5 pt-5">
-                Photo Gallery
-            </div>
+            <div class="display-5 pt-5">Photo Gallery</div>
             <br>
-            <p class="lead">
-                Take a look at photo collections that capture the unique and beautiful spaces in our community and apartments as well as videos that offer even more detail.
-            </p>
+            <p class="lead">Take a look at photo collections that capture the unique and beautiful spaces in our community and apartments as well as videos that offer even more detail.</p>
         </div>
 
         <div class="container-fluid padding">
             <div class="row">
-                <div class="col-lg-3 mb-3 mb-lg-0">
+                <div class="col-md-3 mb-3 mb-lg-0">
                     <img class="w-100 mb-3" src="Images-Optimized/IMG_5908_09_10_11_12_13_14.jpg" alt="property pool" style="height: 400px; object-fit: cover; object-position: right;">
                     <img class="w-100 mb-3" src="Images-Optimized/IMG_1441_2_3_4_5_6_7-2.jpg" alt="living room">
                 </div>
-                <div class="col-lg-3 mb-3 mb-lg-0">
+                <div class="col-md-3 mb-3 mb-lg-0">
                     <img class="w-100 mb-3" src="Images-Optimized/IMG_6230_1_2_3_4_5_6.jpg" alt="clubhouse">
                     <img class="w-100 mb-3" src="Images-Optimized/IMG_1574_75_76_77_78_79_80-2.jpg" alt="kitchen" style="height: 400px; object-fit: cover; object-position: right;">
                 </div>
-                <div class="col-lg-3 mb-3 mb-lg-0">
+                <div class="col-md-3 mb-3 mb-lg-0">
                     <img class="w-100 mb-3" src="Images-Optimized/IMG_5754_55_56_57_58_59_60.jpg" alt="apartment exterior" style="height: 400px; object-fit: cover; object-position: center;">
                     <img class="w-100 mb-3" src="Images-Optimized/IMG_1413_4_5_6_7_8_9-2.jpg" alt="bedroom">
                 </div>
-                <div class="col-lg-3 mb-3 mb-lg-0">
+                <div class="col-md-3 mb-3 mb-lg-0">
                     <img class="w-100 mb-3" src="Images-Optimized/IMG_5467_68_69_70_71_72_73.jpg" alt="shops">
                     <img class="w-100 mb-3" src="Images-Optimized/IMG_1301_2_3_4_5_6_7-2.jpg" alt="community kitchen" style="height: 400px; object-fit: cover; object-position: center;">
                 </div>
@@ -302,9 +230,7 @@
         </div>
 
         <div class="container pb-5 text-center">
-            <button type="button" class="btn btn-danger">
-                Explore Gallery
-            </button>
+            <button type="button" class="btn btn-danger rounded-0">Explore Gallery</button>
         </div>
 
         <!--- Tour --->
@@ -317,49 +243,46 @@
 
         <!--- Footer --->
 
-        <div class="container-fluid footer-bg padding">
+        <div class="container-fluid footer">
             <footer>
-                <div class="row footer-md padding text-white">
-                    <div class="col text-secondary">
+                <div class="row padding text-white text-center text-sm-start">
+                    <div class="col-sm-12 col-md-2 text-secondary">
                         <img class="pb-3" src="Images-Optimized/Logo-Chancellor.png" alt="chancellor logo"><br>
                         Chancellor Properties<br>
                         395 Hollister Avenue<br>
                         Goleta, CA 93117<br>
                         (805) 969-5400
                     </div>
-                    <div class="col">
+                    <div class="col-sm-12 col-md-2">
                         <p>Home</p>
                         <p>Amenities</p>
                         <p>Virtual Tours</p>
                         <p>Floorplans</p>
                     </div>
-                    <div class="col">
+                    <div class="col-sm-12 col-md-2">
                         <p>Photo Gallery</p>
                         <p>Maps & Directions</p>
                         <p>eBrochure</p>
                         <p>Schedule a Tour</p>
                     </div>
-                    <div class="col">
+                    <div class="col-sm-12 col-md-2">
                         <p>Contact Us</p>
                         <p>Interactive Maps</p>
                         <p>Reviews</p>
                         <p>Privacy Policy</p>
                     </div>
-                    <div class="col">
+                    <div class="col-sm-12 col-md-2">
                         <p>Resident Login</p>
                         <p>Applicant Login</p>
                         <p>Terms and Conditions</p>
+                        <a href="#"><i class="bi bi-twitter text-light"></i></a> <a href="#"><i class="bi bi-facebook text-light"></i></a>
                     </div>
                 </div>
-
                 <br>
-        
-                <hr class="footer-md text-white">
-
+                <hr class="text-white">
                 <br>
-
                 <div class="container-fluid">
-                    <div class="row footer-md pt-2 text-center text-secondary">
+                    <div class="row pt-2 text-center text-secondary">
                         <div class="col-sm-12 col-md-10">
                             &copy; 2021 Chancellor Properties, LLC. All Rights Reserved. | Website Design by RENTCafe (&copy; 2021 Yardi Systems, Inc. All Rights Reserved.)
                         </div>
